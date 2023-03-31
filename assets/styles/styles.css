@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid orangered; */
+  border: 1px solid orangered;
 }
 
 body {
@@ -181,6 +181,7 @@ input {
   font-weight: 400;
   font-size: 14px;
   font-size: 14px;
+  border: none !important;
 }
 
 .butn {
@@ -253,13 +254,18 @@ a .sect2-btn {
   display: block;
 }
 
-.desc-sect5 .desc-sect4 .desc-sect3 .desc-sect2 {
+.desc-sect5,
+.desc-sect4,
+.desc-sect3,
+.desc-sect2 {
   margin: 30px 0 50px;
   text-align: center;
 }
 
 .desc-sect5 h1,
-.desc-sect4 h1 .desc-sect3 h1 .desc-sect2 h1 {
+.desc-sect4 h1,
+.desc-sect3 h1,
+.desc-sect2 h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
@@ -664,11 +670,125 @@ span img {
 
 /* section 6 */
 
-#section6 {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 416px;
+#section6{
+  background-color: #f3cd03;
+  height: 1223px;
+}
+
+.dark-div {
   background: #252b42;
+  height: 807px;
+}
+
+.sect6-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 2% 0 2% 7%;
+  width: 80%;
+  transform: translateY(-75%);
+}
+
+.sect6-row2 {
+  display: flex;
+  /* background-color: #fff; */
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.sect6-row1 {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.sect6-row1-desc {
+  flex-basis: 45%;
+  margin: 7% 0;
+}
+
+.sect6-row1-desc h1 {
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 0 0 20px;
+}
+
+.sect6-row1-desc p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.worldcard-img {
+  height: fit-content;
+}
+
+.contact-img {
+  height: 609px;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 40px;
+  gap: 12px;
+  width: 600px;
+  height: 610px;
+  background: #ffffff;
+  border-radius: none;
+}
+
+.form-btn {
+  width: 520px;
+}
+
+/* background-image: url(https://picsum.photos/id/1080/6858/4574), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172)); */
+
+#section7 {
+  padding: 50px 0;
+  background-color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+
+.sect7-divs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4.5em;
+  margin: 10px 0 40px;
+}
+
+.icons a .fa {
+  color: #23a6f0;
+  padding: 0 0 0 10px;
+  font-size: 27px;
+}
+
+.sect-divs-div1,
+.sect-divs-div2,
+.sect-divs-div3,
+.sect-divs-div4 {
+  display: flex;
+  flex-direction:column;
+  gap: 1em;
+}
+
+.last-text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #FAFAFA;
+  height: 76px;
+  margin: 5% 0 0;
+  
 }
