@@ -567,12 +567,15 @@ ul li {
 #section5 {
   padding: 70px 0;
   background-color: coral;
+  /* background-color: #fafafa; */
 }
 
 .sect5-div-container {
-  margin: 8% 0 8% 9%;
-  display: flex;
-  width: 85%;
+  margin: 2% 0 2% 9%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  width: 80%;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -580,5 +583,92 @@ ul li {
 .sect5-div1,
 .sect5-div2,
 .sect5-div3 {
-  
+  border: 1px solid #23a6f0;
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 50px 40px;
+  margin-bottom: 0;
+  color: #252b42;
+}
+
+.bg-color {
+  background-color: #252b42;
+  padding: 70px 40px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.line .bg-txt {
+  color: white;
+}
+
+span img {
+  border-radius: 50%;
+}
+
+.zero {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+
+.permonth {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #8ec2f2;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+}
+
+.line span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.zero-dollar-permonth {
+  display: flex;
+}
+
+.sect5-div1 .sect-div-buton,
+.sect5-div3 .sect-div-buton,
+.sect5-div2 .sect-div-buton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 90px;
+  gap: 10px;
+  min-width: 100%;
+  background: #23a6f0;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+
+/* section 6 */
+
+#section6 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 416px;
+  background: #252b42;
 }
