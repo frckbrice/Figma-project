@@ -305,7 +305,7 @@ a .sect2-btn {
   gap: 10px;
   align-items: center;
   background: #8ec2f2;
- padding: 30px 40px;
+  padding: 30px 40px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -362,7 +362,7 @@ ul li {
 #section3 {
   padding: 50px 0;
   box-sizing: border-box;
-  background: brown;/* #FAFAFA;*/
+  background: brown; /* #FAFAFA;*/
   height: auto;
   width: 100%;
 }
@@ -394,8 +394,8 @@ ul li {
 
 .s2divbox {
   display: flex;
-  gap: 30px;
-  justify-content: center;
+  gap: 50px;
+  justify-content: space-evenly;
   align-items: center;
   width: 83%;
   margin: 5% 8%;
@@ -404,9 +404,10 @@ ul li {
 .s2div3,
 .s2div2,
 .s2div1 {
-  flex-basis: 30%;
-  border: 1px solid #DEDEDE;
+  flex-basis: 25%;
+  border: 1px solid #dedede;
   display: block;
+  border-radius: 5px;
 }
 
 .s2subdiv3,
@@ -447,7 +448,6 @@ ul li {
 
 /* section4 */
 
-
 .desc-sect4 {
   margin: 30px 0 50px;
   text-align: center;
@@ -473,3 +473,73 @@ ul li {
   color: #737373;
 }
 
+.sect4-container {
+  margin: 8%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  margin-left: 15%;
+}
+
+.sect4-div-img {
+  background: linear-gradient(rgba(0 0 0 / 0%), rgba(38 38 38 /84%)),
+    url("../images/video.jpg");
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  height: 442px;
+  position: relative;
+  border: none;
+}
+
+.sect4-video-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: none;
+}
+
+.sect4-div-desc {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sect4-div-desc h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.sect4-div-desc p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.sect4-div-desc-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  background: url("../images/square.png");
+  width: 20px;
+  height: 50px;
+}
+
+.square-logo-img {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-70%, -80%);
+}
