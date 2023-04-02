@@ -1013,10 +1013,10 @@ div.icons {
   }
 
   .form {
-    width: 100%;
+    width: 60vw;
     margin: 12% auto;
-    /* padding-top: 5%; */
-    height: 65vh;
+    height: 75vh;
+    padding: 10%;
   }
 
   .description {
@@ -1170,7 +1170,7 @@ div.icons {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 990px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   /* mobile version */
 
   .mobile {
@@ -1202,10 +1202,9 @@ div.icons {
   }
 
   .form {
-    width: 100%;
+    width: 35vw;
     margin: 12% auto;
-    /* padding-top: 5%; */
-    height: 65vh;
+    height: 70vh;
   }
 
   .sect-contain {
@@ -1272,7 +1271,7 @@ div.icons {
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1201px) {
   .mobile {
     display: none;
   }
@@ -1284,6 +1283,13 @@ div.icons {
  .navbar-nav {
     margin: 4vh 0 0 auto;
     width: auto;
+  }
+
+  .form {
+    width: 80%;
+    margin: 12% auto;
+    /* padding-top: 5%; */
+    height: 70vh;
   }
 
 .form2 {
