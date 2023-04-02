@@ -146,7 +146,7 @@ button {
 .form h2 {
   margin: 1.8vh 0 4.4vh;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 1.8vh;
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.1px;
@@ -999,7 +999,7 @@ div.icons {
 
   #header {
     height: auto;
-    padding: 30px 0 0;
+    padding: 30px;
     min-height: 108vh;
   }
 
@@ -1015,7 +1015,8 @@ div.icons {
   .form {
     width: 100%;
     margin: 12% auto;
-    padding-top: 5%;
+    /* padding-top: 5%; */
+    height: 65vh;
   }
 
   .description {
@@ -1024,6 +1025,10 @@ div.icons {
     gap: 35px;
     align-items: center;
     margin-top: 30px;
+  }
+
+  .description .desc1 {
+    text-align: center;
   }
 
   #section2 {
@@ -1087,8 +1092,6 @@ div.icons {
     width: 100%;
   }
 
-
-
   .sect4-div-desc-h {
     width: 100%;
     padding: 0;
@@ -1096,14 +1099,14 @@ div.icons {
   }
 
   .sect4-div-desc-h h2 {
-       margin-right: 15vw;
+    margin-right: 15vw;
     font-size: 40px;
     line-height: 57px;
   }
 
-   .sect4-div-desc {
+  .sect4-div-desc {
     display: none;
-  } 
+  }
 
   .desc-sect5,
   .desc-sect4,
@@ -1176,34 +1179,39 @@ div.icons {
 
   /* header */
 
-.navbar {
-  font-size: auto;
-  margin: 0;
-  width: 100%;
-}
+  .navbar {
+    width: 100%;
+  }
 
-.navbar-nav {
-  margin: 0 0 0 auto;
-  width: auto;
-}
-.navbar-brand {
-  margin: 0 0 0 1vw;
-  font-size: 2.8vh;
-  width: 14.5vw;
-}
+  .navbar-nav {
+    margin: 0 0 0 auto;
+    width: auto;
+  }
+  .navbar-brand {
+    margin: 0 0 0 1vw;
+    font-size: 2.8vh;
+    width: 14.5vw;
+  }
 
-.menu {
-  margin: 14vh 0 13.75vh 2vw;
-}
+  .menu {
+    margin: 28vh 0 13.75vh 13vw;
+  }
 
-.menu li a {
-  color: #252b42;
-}
+  .menu li a {
+    color: #fff;
+  }
 
-.sect-contain {
-width: fit-content;
-  gap: 10vw;
-}
+  .form {
+    width: 100%;
+    margin: 12% auto;
+    /* padding-top: 5%; */
+    height: 65vh;
+  }
+
+  .sect-contain {
+    width: fit-content;
+    gap: 7vw;
+  }
 
   /* section 3 */
 
@@ -1228,9 +1236,9 @@ width: fit-content;
     width: 100%;
   }
 
-.bg-color {
-  margin-bottom: 6vh;
-}
+  .bg-color {
+    margin-bottom: 6vh;
+  }
 
   /* section 6 */
 
@@ -1240,8 +1248,8 @@ width: fit-content;
   }
 
   #section6 {
-  display: none;
-}
+    display: none;
+  }
 
   .form2 {
     height: 96.72vh;
@@ -1264,10 +1272,30 @@ width: fit-content;
   }
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 991px) {
   .mobile {
     display: none;
   }
+
+  #header {
+    margin: 0;
+  }
+
+ .navbar-nav {
+    margin: 4vh 0 0 auto;
+    width: auto;
+  }
+
+.form2 {
+    height: 78.7vh;
+    width: 35vw;
+  }
+
+  .form-btn {
+    width: 100%;
+  }
+
+  /* section 8 */
 
   #section8 {
     display: none;
