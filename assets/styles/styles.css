@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  /* border: 1px solid coral; */
+  border: 1px solid coral;
 }
 
 body {
@@ -44,11 +44,11 @@ button {
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 3.54vh;
   line-height: 32px;
   letter-spacing: 0.1 px;
   width: 12vw;
-  margin: 3vh 0 0 5%;
+  margin: 3vh 0 0 4.5vw;
 
   /* position: relative;
   height: 32px;
@@ -64,7 +64,7 @@ button {
   align-items: center;
   padding: 0;
   gap: 10px;
-  margin: 12% 0 10% 6%;
+  margin: 16.5vh 0 13.75vh 5.4vw;
   width: 28vw;
 }
 
@@ -88,9 +88,9 @@ button {
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  gap: 35px;
+  gap: 2.6vw;
   width: 25vw;
-  margin: 12% 0 10% 20%;
+  margin: 16.5vh 0 13.75vh 18vw;
 }
 
 .navbar-nav a {
@@ -104,7 +104,7 @@ button {
 
 .navbtn {
   color: #fff;
-  padding: 15px 40px;
+  padding: 2.2vh 3vw;
   background-color: #23a6f0;
   border-radius: 5px;
   cursor: pointer;
@@ -127,7 +127,7 @@ button {
   display: flex;
   align-items: center;
   width: 88vw;
-  gap: 20%;
+  gap: 18vw;
   margin: 5% auto;
 }
 
@@ -135,16 +135,16 @@ button {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 40px;
-  gap: 12px;
-  width: 25vw;
+  padding: 3vw;
+  gap: 1vw;
+  width: 28vw;
   height: 90vh;
   background: #ffffff;
   border-radius: 10px;
 }
 
 .form h2 {
-  margin: 10px 0 30px;
+  margin: 1.8vh 0 4.4vh;
   font-weight: 700;
   font-size: 23px;
   line-height: 32px;
@@ -157,7 +157,7 @@ button {
   font-size: 14px;
   font-weight: 500;
   font-family: Monserat, sans-serif;
-  height: 80px;
+  height: 6vw;
   line-height: 28px;
   color: #252b42;
 }
@@ -168,7 +168,7 @@ input {
   border: 1px solid #e6e6e6;
   color: #737373;
   border-radius: 5px;
-  height: 120px;
+  height: 9vw;
   padding: 0 21px;
   font-weight: 400;
   line-height: 28px;
@@ -178,7 +178,7 @@ input {
 
 .option {
   box-sizing: border-box;
-  height: 120px;
+  height: 9vw;
   background: #f9f9f9;
   border: 1px solid #dddddd;
   border-radius: 5px;
@@ -186,11 +186,11 @@ input {
   font-size: 14px;
   font-size: 14px;
   color: #737373;
-  padding: 0 21px;
+  padding: 0 1.5vw;
 }
 
 .butn {
-  padding: 15px 40px;
+  padding: 2.2vh 3vw;
   width: 100%;
   background: #23a6f0;
   border-radius: 5px;
@@ -206,6 +206,7 @@ input {
 
 .description {
   margin: 0 auto;
+  width: 55vw;
 }
 
 .description .desc1 {
@@ -222,7 +223,7 @@ input {
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #ffffff;
-  margin: 30px 0 2px;
+  margin: 1.4vh 0 2px;
 }
 
 .sect1-btn {
@@ -256,7 +257,7 @@ a .sect2-btn {
 #section2 {
   width: 100%;
   height: auto;
-  padding: 70px 0;
+  padding: 70px 5%;
   display: block;
 }
 
@@ -295,12 +296,12 @@ a .sect2-btn {
 
 .divbox {
   display: flex;
-  gap: 30px;
+  gap: 2.25vw;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   margin: 0 auto;
-  width: 82vw;
+  width: 90vw;
 }
 
 .div3,
@@ -308,7 +309,7 @@ a .sect2-btn {
 .div1 {
   border-radius: 10px;
   border: 1px solid #8ec2f2;
-  flex-basis: 25%;
+  flex-basis: 33%;
   background: #e1f0fd;
   height: auto;
 }
@@ -320,7 +321,7 @@ a .sect2-btn {
   gap: 10px;
   align-items: center;
   background: #8ec2f2;
-  padding: 30px 40px;
+  padding: 4.4vh 3vw;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -332,7 +333,7 @@ a .sect2-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  width: 170px;
+  width: fit-content;
 }
 
 .sect2-divimg {
@@ -455,7 +456,7 @@ ul li {
   background-color: #fafafa;
   width: 100%;
   margin: 0;
-  padding: 10% 0;
+  padding: 10% 2.7%;
 }
 
 .desc-sect3,
@@ -468,8 +469,7 @@ ul li {
 .sect4-container {
   padding: 0 auto;
   display: flex;
-  width: 80vw;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 5%;
 }
@@ -497,11 +497,11 @@ ul li {
 
 .sect4-div-desc-h,
 .sect4-div-desc {
-  flex-basis: 30%;
+  flex-basis: 35%;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-right: 50px;
+  margin: 0;
 }
 
 .sect4-div-desc-title-h,
@@ -618,18 +618,18 @@ ul li {
 }
 
 #section5 {
-  padding: 70px 0;
+  padding: 70px 3%;
   background-color: #fafafa;
 }
 
 .sect5-div-container {
-  margin: 2% 0 2% 9%;
   display: inline-flex;
   flex-wrap: wrap;
   gap: 1px;
-  width: 80%;
   flex-wrap: wrap;
   align-items: center;
+  width: 83vw;
+  margin-left: 5%;
 }
 
 .sect5-div1,
@@ -728,16 +728,9 @@ span img {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin: 2% 0 8% 7%;
-  width: 80%;
+  margin: 2% 0 8%;
   transform: translateY(-75%);
-}
-
-.sect6-row2 {
-  display: flex;
-  /* background-color: #fff; */
-  justify-content: center;
-  margin-left: 5%;
+  margin: 0 7%;
 }
 
 .sect6-row1 {
@@ -772,6 +765,13 @@ span img {
 
 .worldcard-img {
   height: fit-content;
+}
+
+.sect6-row2 {
+  display: flex;
+  /* background-color: #fff; */
+  justify-content: center;
+  margin-left: 5%;
 }
 
 .contact-img {
@@ -1015,12 +1015,13 @@ div.icons {
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
+    width: fit-content;
   }
 
-  .form {
+   .form {
     width: 100%;
     margin: 12% auto;
-    height: 100%;
+    padding-top: 5%;
   }
 
   .description {
@@ -1028,23 +1029,7 @@ div.icons {
     flex-direction: column;
     gap: 35px;
     align-items: center;
-    padding: 0;
-    margin-left: 0;
     margin-top: 30px;
-  }
-
-  .description .desc1 {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 57px;
-    text-align: center;
-  }
-
-  .description .desc2 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
   }
 
   #section2 {
@@ -1055,9 +1040,21 @@ div.icons {
     margin: 0 0 40%;
   }
 
+/* section 2 */
+
   .divbox {
-    flex-wrap: wrap;
+    display: block;
+    width: fit-content;
   }
+
+  .div3,
+.div2,
+.div1 {
+   margin-bottom: 30px;
+    height: auto;
+}
+
+  /* section 4 */
 
   .s2divbox {
     display: block;
@@ -1068,12 +1065,10 @@ div.icons {
   .s2div2,
   .s2div1 {
     margin-bottom: 30px;
-    /* min-width: 300px; */
-    padding: auto 0;
-    height: 460px;
-    justify-content: space-evenly;
+    height: auto;
   }
 
+  #section2,
   #section4,
   #section5,
   #section3 {
@@ -1170,16 +1165,73 @@ div.icons {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  /* mobile version */
+  
   .mobile {
     display: none;
   }
 
-  #section8 {
-    display: none;
-  }
+/* header */
 
   .sect4-div-desc-h {
     display: none;
+  }
+
+  .sect6-container {
+    margin: 0 3%;
+  }
+
+/* section 2 */
+
+   .divbox {
+    width: fit-content;
+  }
+
+  /* section 4 */
+
+  .sect4-container {
+    width: 94vw;
+  }
+
+  /* section 5 */
+
+  .sect5-div-container {
+    margin-left: 0;
+    width: 100%;
+  }
+
+/* sectiion 8 */
+
+  .sect8-div-img img {
+    width: 100%;
+  }
+
+  .sect8-div-form {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .mobile {
+    display: none;
+  }
+
+  /* #section8 {
+    display: none;
+  } */
+
+  .sect4-div-desc-h {
+    display: none;
+  }
+
+  .divbox {
+    width: fit-content;
+  }
+
+  /* section 4 */
+
+  .sect4-container {
+    width: 90vw;
   }
 }
