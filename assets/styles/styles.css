@@ -2,20 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  /* border: 1px solid coral; */
 }
 
 body {
   font-family: Montserrat, sans-serif;
-  font-family: 14px;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 1px solid blue;
-  margin: 0;
+  font-size: 14px;
   padding: 0;
   overflow: none;
+  max-width: 1440px;
+  margin: 0;
 }
 
 button {
@@ -23,7 +18,7 @@ button {
 }
 
 #header {
-  width: 100%;
+  width: 100vw;
   height: 120vh;
   min-height: 120vh;
   background: linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
@@ -128,7 +123,7 @@ button {
   align-items: center;
   width: 88vw;
   gap: 18vw;
-  margin: 5% auto;
+  margin: 0 auto;
 }
 
 .form {
@@ -138,7 +133,8 @@ button {
   padding: 3vw;
   gap: 1vw;
   width: 28vw;
-  height: 90vh;
+  height: 95vh;
+  min-height: 90vh;
   background: #ffffff;
   border-radius: 10px;
 }
@@ -1203,8 +1199,18 @@ div.icons {
 
   .form {
     width: 35vw;
-    margin: 12% auto;
-    height: 70vh;
+    margin: 8% auto;
+    min-height: 70vh;
+    max-height: 80vh;
+
+    /* min-width: 55vw;
+    width: 57vw;
+    max-width: 60vw;
+    margin: 10% auto;
+    /* padding-top: 5%; 
+    max-height: 88vh;
+    height: 88vh;
+    min-height: 85vh; */
   }
 
   .sect-contain {
@@ -1280,21 +1286,42 @@ div.icons {
     margin: 0;
   }
 
- .navbar-nav {
+  .navbar-nav {
     margin: 4vh 0 0 auto;
     width: auto;
   }
 
-  .form {
-    width: 80%;
-    margin: 12% auto;
-    /* padding-top: 5%; */
-    height: 70vh;
+  .sect-contain {
+    gap: 0;
   }
 
-.form2 {
-    height: 78.7vh;
+  .form {
     width: 35vw;
+    min-width: 40vw;
+    max-width: 50vw;
+    height: 88vh;
+    max-height: 88vh;
+    min-height: 85vh;
+    margin: 10% auto;
+    gap: 1vh;
+  }
+
+  .form h2 {
+    font-size: 2.5vh;
+  }
+
+  .form h6 {
+    height: 2vh;
+  }
+
+  .form2 {
+    min-height: 78.7vh;
+    height: 79vh;
+    width: 35vw;
+  }
+
+  .contact-img {
+    min-height: 78.7vh;
   }
 
   .form-btn {
