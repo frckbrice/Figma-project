@@ -316,7 +316,7 @@ a .sect2-btn {
   display: flex;
   gap: 10px;
   align-items: center;
-  background: #8ec2f2;
+  background: #d9edff;
   padding: 4.4vh 3vw;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -885,14 +885,13 @@ div.icons {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 8% 30px;
+  padding: 40px;
   gap: 12px;
-  width: 50vw;
-  height: 610px;
+  width: 49vw;
+  height: 80.31vh;
   background: #ffffff;
-  border: none;
-  margin-bottom: 5%;
-  padding-top: 5%;
+  border-radius: none;
+  color: #252b42;
 }
 
 .form3 h5 {
@@ -1164,6 +1163,190 @@ div.icons {
   .sect8-div-img img {
     width: 100%;
   }
+
+  .sect8-div-form {
+    margin-top: 10%;
+    background-color: white;
+  }
+
+  input {
+    color: #bdbdbd;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #header {
+    padding: 50px 30px;
+  }
+
+  .description {
+    width: 65vw;
+  }
+
+  .description .desc1 {
+    font-size: 40px;
+    line-height: 65px;
+  }
+
+  .description .desc2 {
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+
+  #section2,
+  #section4,
+  #section5 {
+    padding: 10% 12%;
+  }
+
+  #section3 {
+    padding: 30% 12%;
+  }
+
+  .desc-sect5,
+  .desc-sect4,
+  .desc-sect3,
+  .desc-sect2 {
+    padding: 0 5%;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+
+  .desc-sect2 p,
+  .desc-sect5 p,
+  .desc-sect4 p,
+  .desc-sect3 p {
+    padding: 5%;
+  }
+
+  .desc-sect5 h1,
+  .desc-sect4 h1,
+  .desc-sect3 h1,
+  .desc-sect2 h1 {
+    margin: 20px auto 0;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .divbox {
+    margin: 5% auto;
+  }
+
+  .s2divbox {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .reginamiles {
+    margin: 0 auto 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23a6f0;
+  }
+
+  .s2div3,
+  .s2div2,
+  .s2div1 {
+    padding: 15% 0;
+  }
+
+  .sect4-container {
+    padding: 0;
+    margin: 30% auto;
+  }
+
+  .sect4-div-img {
+    width: 100%;
+  }
+
+  .sect4-div-desc-h h2 {
+    margin: auto 0 15%;
+  }
+
+  .desc-sect5 p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  .sect5-div3 {
+    margin: 0 0 12%;
+  }
+
+  .form3 {
+    width: 75vw;
+    gap: 20px;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form3 h5 {
+    font-size: 16px;
+  }
+
+  .sect8-div-form {
+    background-color: #fff;
+  }
+
+  input {
+    background: #f9f9f9;
+    color: #BDBDBD;
+    border-radius: 5px;
+    padding: 8% 15px;
+  }
+
+  #section8 {
+    background-color: #fff;
+    height: auto;
+  }
+
+  .option {
+    padding: 8% 15px;
+    background: #f9f9f9;
+    color: #BDBDBD;
+  } 
+
+.last-text {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+}
+
+@media screen and (max-width: 375px) {
+  #header {
+    padding: 10px;
+  }
+
+  .description .desc1 {
+    font-size: 40px;
+  }
+
+  .description .desc2 {
+    text-align: center;
+  }
+
+  .form {
+    height: 60vh;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
@@ -1264,16 +1447,10 @@ div.icons {
     width: 100%;
   }
 
-  /* section 7 */
-
   /* section 8 */
 
   .sect8-div-img img {
     width: 100%;
-  }
-
-  .sect8-div-form {
-    display: none;
   }
 }
 
