@@ -22,8 +22,8 @@ button {
   height: 120vh;
   min-height: 120vh;
   background:
-      linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
-      url("../images/cover.jpg");
+    linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
+    url("../images/cover.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -453,8 +453,8 @@ a .sect2-btn {
 
 .sect4-div-img {
   background:
-      linear-gradient(rgba(0 0 0 / 0%), rgba(38 38 38 / 84%)),
-      url("../images/video.jpg");
+    linear-gradient(rgba(0 0 0 / 0%), rgba(38 38 38 / 84%)),
+    url("../images/video.jpg");
   display: flex;
   flex-basis: 50vw;
   background-repeat: no-repeat;
