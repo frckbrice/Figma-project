@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid chocolate; */
 }
 
 body {
@@ -22,7 +21,7 @@ button {
   width: 100vw;
   height: 120vh;
   min-height: 120vh;
-  background: 
+  background:
       linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
       url("../images/cover.jpg");
   background-position: center center;
@@ -453,7 +452,7 @@ a .sect2-btn {
 }
 
 .sect4-div-img {
-  background: 
+  background:
       linear-gradient(rgba(0 0 0 / 0%), rgba(38 38 38 / 84%)),
       url("../images/video.jpg");
   display: flex;
