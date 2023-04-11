@@ -22,7 +22,8 @@ button {
   width: 100vw;
   height: 120vh;
   min-height: 120vh;
-  background: linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
+  background: 
+  linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)),
     url("../images/cover.jpg");
   background-position: center center;
   background-size: cover;
@@ -64,15 +65,37 @@ button {
   width: 28vw;
 }
 
+ul li {
+  list-style-type: "- ";
+  color: #737373;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  padding: 0 2px;
+}
+
 .menu li {
   list-style: none;
   margin-left: 20px;
 }
 
+.butn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
 .menu li a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
   cursor: pointer;
   font-size: 14px;
   line-height: 24px;
@@ -83,19 +106,10 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 2.6vw;
   width: 25vw;
   margin: 16.5vh 0 13.75vh 18vw;
-}
-
-.navbar-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 22px;
 }
 
 .navbtn {
@@ -112,13 +126,6 @@ button {
   margin: 0;
 }
 
-/* padding: 50px 0;
-  position: absolute;
-  width: 1050px;
-  height: 608px;
-  left: calc(50% - 1050px / 2);
-  top: 155px; */
-
 .sect-contain {
   display: flex;
   align-items: center;
@@ -134,9 +141,7 @@ button {
   padding: 3vw;
   gap: 1vw;
   width: 28vw;
-  /* height: 95vh; */
-  /* min-height: 90vh; */
-  background: #ffffff;
+  background: #fff;
   border-radius: 10px;
 }
 
@@ -170,14 +175,13 @@ input {
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.2px;
-  font-size: 14px;
 }
 
 .option {
   box-sizing: border-box;
   height: 9vw;
   background: #f9f9f9;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-radius: 5px;
   font-weight: 400;
   font-size: 14px;
@@ -196,11 +200,6 @@ input {
   letter-spacing: 0.2px;
 }
 
-.butn a {
-  color: #fff;
-  text-decoration: none;
-}
-
 .description {
   margin: 0 auto;
   width: 55vw;
@@ -211,7 +210,7 @@ input {
   font-size: 58px;
   line-height: 80px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .description .desc2 {
@@ -219,7 +218,7 @@ input {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
   margin: 1.4vh 0 2px;
 }
 
@@ -352,16 +351,6 @@ a .sect2-btn {
   background: #fff;
 }
 
-ul li {
-  list-style-type: "- ";
-  color: #737373;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 25px;
-  letter-spacing: 0.2px;
-  padding: 0 2px;
-}
-
 .bluestest {
   color: #23a6f0;
   font-weight: 600;
@@ -411,9 +400,9 @@ ul li {
   background-color: white;
 }
 
-.sect2-divimg {
+/* .sect2-divimg {
   border: 1px solid #bdbdbd;
-}
+} */
 
 .s2subdiv33,
 .s2subdiv22,
@@ -428,6 +417,8 @@ ul li {
   color: #737373;
 }
 
+.fullstars2,
+.fullstars3,
 .fullstars {
   color: #f3cd03;
   font-size: 20px;
@@ -460,9 +451,6 @@ ul li {
   align-items: center;
   gap: 10vw;
   width: 70vw;
-  /* justify-content: space-evenly; */
-  /* background-color: #f3cd03; */
-  /* margin-left: 5%; */
 }
 
 .sect4-div-img {
@@ -527,6 +515,7 @@ ul li {
   width: auto;
 }
 
+.square-text1 h4,
 .square-text-h h4,
 .square-text h4 {
   font-weight: 700;
@@ -536,6 +525,7 @@ ul li {
   color: #252b42;
 }
 
+.square-text p,
 .square-text-h p,
 .square-text p {
   font-weight: 600;
@@ -618,8 +608,8 @@ ul li {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 1px;
-  flex-wrap: wrap;
   align-items: center;
+
   /* width: 83vw; */
   margin-left: 5%;
 }
@@ -730,7 +720,6 @@ span img {
   gap: 30px;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .sect6-row1-desc {
@@ -742,7 +731,7 @@ span img {
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
   margin: 0 0 20px;
 }
 
@@ -751,7 +740,7 @@ span img {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .worldcard-img {
@@ -760,8 +749,10 @@ span img {
 
 .sect6-row2 {
   display: flex;
+
   /* background-color: #fff; */
   justify-content: center;
+
   /* margin-left: 5%; */
 }
 
@@ -777,7 +768,7 @@ span img {
   gap: 12px;
   width: 49vw;
   height: 91.31vh;
-  background: #ffffff;
+  background: #fff;
   border-radius: none;
   color: #252b42;
 }
@@ -812,6 +803,7 @@ span img {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
+
   /* gap: 4.5rem; */
   margin: 10px 0 40px;
   font-family: Monserat, sans-serif;
@@ -890,7 +882,7 @@ div.icons {
   gap: 12px;
   width: 49vw;
   height: 80.31vh;
-  background: #ffffff;
+  background: #fff;
   border-radius: none;
   color: #252b42;
 }
@@ -970,9 +962,7 @@ div.icons {
 }
 
 .mobil-menu li a {
-  color: #fff;
   text-decoration: none;
-  font-weight: bold;
   cursor: pointer;
   font-weight: 600;
   font-size: 30px;
@@ -987,6 +977,7 @@ div.icons {
   body {
     background-color: #f7f7f7;
   }
+
   .navbar {
     display: none;
   }
@@ -1079,6 +1070,7 @@ div.icons {
 
   .sect4-container {
     display: block;
+
     /* margin-right: 10%; */
     width: 70vw;
     margin: 2% auto;
@@ -1141,7 +1133,7 @@ div.icons {
     display: none;
   }
 
-  /* fix section 7    xyz*/
+  /* fix section 7 */
 
   .sect7-divs {
     display: flex;
@@ -1357,9 +1349,9 @@ div.icons {
     font-size: 16px;
   }
 
-  #section8 {
+  /* #section8 {
     padding: 10% 0;
-  }
+  } */
 
   .sect8-div-form {
     background-color: #fff;
@@ -1375,6 +1367,7 @@ div.icons {
   #section8 {
     background-color: #fff;
     height: auto;
+    padding: 10% 0;
   }
 
   .option {
@@ -1479,6 +1472,7 @@ div.icons {
     margin: 0 0 0 auto;
     width: auto;
   }
+
   .navbar-brand {
     margin: 0 0 0 1vw;
     font-size: 2.8vh;
@@ -1487,6 +1481,11 @@ div.icons {
 
   .menu {
     margin: 28vh 0 13.75vh 13vw;
+  }
+
+  .butn a {
+    color: #fff;
+    text-decoration: none;
   }
 
   .menu li a {
@@ -1503,7 +1502,7 @@ div.icons {
     width: 57vw;
     max-width: 60vw;
     margin: 10% auto;
-    /* padding-top: 5%; 
+    /* padding-top: 5%;
     max-height: 88vh;
     height: 88vh;
     min-height: 85vh; */
